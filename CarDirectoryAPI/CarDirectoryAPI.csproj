@@ -11,6 +11,10 @@
       <DocumentationFile>bin\Debug\CarDirectoryAPI.xml</DocumentationFile>
     </PropertyGroup>
 
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DocumentationFile>bin\Release\CarDirectoryAPI.xml</DocumentationFile>
+    </PropertyGroup>
+
     <ItemGroup>
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
