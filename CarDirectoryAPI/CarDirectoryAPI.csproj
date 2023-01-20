@@ -25,8 +25,4 @@
       <ProjectReference Include="..\CarAPI.Services\CarAPI.Services.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Pictures\CarPhotos" />
-    </ItemGroup>
-
 </Project>
