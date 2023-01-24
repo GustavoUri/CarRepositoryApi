@@ -31,7 +31,7 @@ public static class ServiceExtensions
                     Email = "aminevural50@gmail.com"
                 },
             });
-            const string xmlPath = @"bin\Debug\CarDirectoryAPI.xml";
+            const string xmlPath = @"CarDirectoryAPI.xml";
             options.IncludeXmlComments(xmlPath);
         });
     }

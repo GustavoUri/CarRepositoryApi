@@ -8,11 +8,11 @@
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-      <DocumentationFile>bin\Debug\CarDirectoryAPI.xml</DocumentationFile>
+      <DocumentationFile>CarDirectoryAPI.xml</DocumentationFile>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-      <DocumentationFile>bin\Release\CarDirectoryAPI.xml</DocumentationFile>
+      <DocumentationFile>CarDirectoryAPI.xml</DocumentationFile>
     </PropertyGroup>
 
     <ItemGroup>
